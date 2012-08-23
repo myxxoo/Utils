@@ -11,7 +11,7 @@ public class FileUtil {
 		// 判断SDCard是否存在   
 		String status = Environment.getExternalStorageState();  
 		boolean isSDCardExist = status.equals(Environment.MEDIA_MOUNTED);  
-		//如果存在则获取SDCard目录   
+		//如果存在则获取SDCard目录    
 		if(isSDCardExist){  
 		    return Environment.getExternalStorageDirectory().getAbsolutePath();  
 		}else{
