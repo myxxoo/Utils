@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-/bin
-/gen
-*.class
-*.apk
-=======
+
 # built application files
 *.apk
 *.ap_
@@ -20,4 +15,3 @@ gen/
 
 # Local configuration file (sdk path, etc)
 local.properties
->>>>>>> c6e5dd57948a2e6b9ed70810d929ad05010062cd
